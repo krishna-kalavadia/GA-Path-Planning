@@ -5,15 +5,6 @@ from generate_environment import generate_environment
 from generate_environment import UniformGridDecomposition
 from plotting_functions import *
 
-"""
-Definitions:
-Chromosome: Will contain a given path and way points, eg [(1, 2), (3, 4)]
-Population: is the set of chromosomes we have, essentially our solution set
-Generation: How many times will be evolve our population
-Individual: represents one chromosome, each individual represents a solution in search space for given problem.
-            essentially the chromosome is what encodes the "individual" 
-"""
-
 # Genetic Algorithm Parameters
 POPULATION_SIZE = 500
 MIN_CHROMOSOME_SIZE = 10
